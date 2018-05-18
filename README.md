@@ -3,6 +3,8 @@ shirayee CLI.
 
 ## usage
 
-`$ npx shirayee`
+```bash
+$ npx shirayee
+```
 
 🤔
