@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 'use strict'
 const { h, render } = require('ink')
 const meow = require('meow')

@@ -29,6 +29,10 @@ const items = [
     url: 'https://www.hellowork.go.jp/'
   },
   {
+    label: 'My favorite meme video 💯💯💯yee💯💯💯',
+    url: 'https://www.youtube.com/watch?v=q6EoRBvdVPQ'
+  },
+  {
     label: 'Quit',
     action() {
       process.exit()
