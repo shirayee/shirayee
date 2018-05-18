@@ -1,6 +1,6 @@
 {
   "name": "shirayee",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "shirayee CLI",
   "bin": "src/cli.js",
   "repository": "shirayee/shirayee",

@@ -29,7 +29,7 @@ const items = [
     url: 'https://www.hellowork.go.jp/'
   },
   {
-    label: 'My favorite meme video 💯💯💯yee💯💯💯',
+    label: 'My favorite meme video.',
     url: 'https://www.youtube.com/watch?v=q6EoRBvdVPQ'
   },
   {
