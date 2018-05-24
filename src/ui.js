@@ -1,7 +1,6 @@
-'use strict'
-const { h, Text } = require('ink')
-const SelectInput = require('ink-select-input')
-const opn = require('opn')
+import { h, Text, Component } from 'ink'
+import SelectInput from 'ink-select-input'
+import opn from 'opn'
 
 const open = url => opn(url, { wait: false })
 
@@ -34,19 +33,25 @@ const items = [
   },
   {
     label: 'Quit',
-    action() {
+    action () {
       process.exit()
     }
   }
 ]
 
-module.exports = () => (
-  <div>
-    <br />
-    <div>
-      <Text>my name is shirayee.</Text>
-    </div>
-    <br />
-    <SelectInput items={items} onSelect={handleSelect} />
-  </div>
-)
+class Ui extends Component {
+  render () {
+    return (
+      <div>
+        <br />
+        <div>
+          <Text>my name is shirayee.</Text>
+        </div>
+        <br />
+        <SelectInput items={items} onSelect={handleSelect} />
+      </div>
+    )
+  }
+}
+
+export default Ui
