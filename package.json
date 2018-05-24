@@ -1,8 +1,8 @@
 {
   "name": "shirayee",
-  "version": "0.0.5",
+  "version": "0.0.13",
   "description": "shirayee CLI",
-  "main": "dist/cli.js",
+  "bin": "dist/cli.js",
   "repository": "shirayee/shirayee",
   "license": "MIT",
   "private": false,
