@@ -1,13 +1,14 @@
 {
   "name": "shirayee",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "shirayee CLI",
   "bin": "dist/cli.js",
   "repository": "shirayee/shirayee",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "babel src --out-dir=dist"
+    "build": "babel src --out-dir=dist; chmod +x dist/cli.js",
+    "start": "dist/cli.js"
   },
   "files": [
     "dist"
