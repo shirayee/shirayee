@@ -24,14 +24,6 @@ const items = [
     url: 'https://github.com/shirayee'
   },
   {
-    label: 'HelloWork',
-    url: 'https://www.hellowork.go.jp/'
-  },
-  {
-    label: 'My favorite meme video.',
-    url: 'https://www.youtube.com/watch?v=q6EoRBvdVPQ'
-  },
-  {
     label: 'Quit',
     action () {
       process.exit()
