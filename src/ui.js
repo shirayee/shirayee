@@ -17,7 +17,7 @@ const handleSelect = item => {
 const items = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/shirayee'
+    url: 'https://twitter.com/macoplz'
   },
   {
     label: 'GitHub',
